@@ -1,0 +1,145 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/fondo.jpg');
+    background-repeat: repeat;
+}
+
+header {
+    /* 
+    background-color: #130e61c7; */
+    background-image: url('https://www.mingobierno.gob.bo/sites/default/files/banner%201921x400%20ministerio%20de%20gobierno%20del%20Estado%20Plurinacional%20de%20Bolivia_0.png');
+    /* background-repeat: repeat; */
+    background-size: contain;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+    border-bottom: 2px solid #14293f;
+}
+
+.accion {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #14293f;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    perspective: 1000px;
+}
+
+.container figure {
+    flex: 0 0 calc(33.333% - 2%);
+    margin-bottom: 2%;
+}
+
+.imgtran {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    transform: rotateY(15deg)
+}
+.imgtran:hover {
+    transform: scale(1.1);
+}
+.imgtran1 {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    transform: rotateY(15deg)
+}
+.imgtran1:hover {
+    transform: scale(1.1);
+}
+
+
+.description {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.subtitles {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .container figure {
+        flex: 0 0 calc(100% - 2%);
+    }
+}
+
+@media (max-width: 576px) {
+    .container figure {
+        flex: 0 0 calc(100% - 2%);
+    }
+}
+
+.portalED {
+    background-color: #ffffff;
+    color:  #14293f;
+    padding: 2%;
+    text-align: center;
+}
+
+.portalED h1 {
+    margin: 0;
+}
+
+footer {
+    background-color: #14293f;
+    padding: 2%;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.mingob {
+    color: white;
+    text-align: right;
+}
+
+footer .rrss {
+    list-style-type: none;
+    padding: 0;
+    margin: 2% 0 0;
+    display: flex;
+    justify-content: left;
+}
+
+footer .rrss li {
+    display:inline-block;
+    /* margin-right: 2%; */
+    width: 15%;
+    height: auto;
+    margin-right: -10%;
+}
+
+footer .rrss li:last-child {
+    margin-right: 0;
+}
+
+footer .rrss img {
+    width: 30px;
+    height: auto;
+    text-align: center;
+}
+footer .rrss img:last-child {
+    margin-right: 0;
+}
+

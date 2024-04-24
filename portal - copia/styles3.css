@@ -1,0 +1,70 @@
+/* Elimina los estilos específicos de ancho y margen */
+header, footer, figure {
+    margin: 0;
+}
+
+/* Ajusta los estilos de las imágenes */
+.imgtran {
+    transition: transform 0.3s ease;
+    max-width: 80%; /* Ajusta el ancho máximo de la imagen */
+    height: auto; /* Hace que la altura se ajuste automáticamente */
+}
+
+.imgtran:hover {
+    transform: scale(1.1);
+}
+
+/* Utiliza clases de Bootstrap para el texto */
+.accion {
+    text-align: center;
+}
+
+/* Utiliza clases de Bootstrap para la cuadrícula */
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Utiliza clases de Bootstrap para las figuras */
+figure {
+    padding: 5% 15%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Utiliza clases de Bootstrap para los pies de las figuras */
+figcaption {
+    margin-top: 10px;
+    font-style:italic;
+    color: #333;
+}
+
+/* Utiliza clases de Bootstrap para el pie de página */
+footer {
+    background-color: #0f1347;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
+
+/* Utiliza clases de Bootstrap para la lista de redes sociales */
+.rrss {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.rrss li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.rrss li:last-child {
+    margin-right: 0;
+}
+
+.rrss img {
+    width: 30px;
+    height: auto;
+}

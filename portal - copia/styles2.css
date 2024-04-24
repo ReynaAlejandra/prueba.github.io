@@ -1,0 +1,125 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* 
+    background-color: #130e61c7; */
+    background-image: url('https://www.mingobierno.gob.bo/sites/default/files/banner%201921x400%20ministerio%20de%20gobierno%20del%20Estado%20Plurinacional%20de%20Bolivia_0.png');
+    /* background-repeat: repeat; */
+    background-size: contain;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.portalED{
+    font-size: 25px;
+    text-shadow: 2px 2px 3px #000, -1px -1px 2px #000;
+    text-align: center;
+}
+
+.accion{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
+
+img {
+    /* width: 500px; */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.imgtran{
+    transition: transform 0.3s ease;
+    transform: perspective(500px) rotateY(10deg);
+}
+.imgtran:hover{
+    transform: scale(1.1);
+}
+
+.subtitles {
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.description {
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.container{
+    /* display: flex;
+    flex-wrap: wrap; */
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+figure {
+    border: 1px;
+    padding: 30px;
+    text-align: center; 
+    margin-bottom: 20px; 
+    display: inline-block;
+    margin: 0 10px 20px;
+}
+
+figcaption {
+    margin-top: 10px; 
+    max-width: 100%;
+    font-style: italic;
+    color:#333;
+    text-align: justify;
+}
+
+.rrss {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.rrss li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.rrss li:last-child {
+    margin-right: 0; 
+}
+
+.rrss img {
+    width: 30px;
+    height: auto;
+}
+
